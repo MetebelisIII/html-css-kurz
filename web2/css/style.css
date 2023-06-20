@@ -1,0 +1,197 @@
+body {
+    /*width: 1440px;*/
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #495565;
+    background: #fff;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.cover {
+    background: url('../img/cover-smol.jpg') center no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 752px;
+    margin: 0 auto;
+    z-index: -2;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: url('../img/logo-smol.png') 0 0 no-repeat;
+    /*width: 114px;*/
+    height: 114px;
+    padding: 42px 0 0 124px;
+    font-size: 18px;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+main {
+    margin: -420px auto 0 auto;
+    width: 900px;
+    margin-bottom: 200px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.title {
+    display: block;
+    color: #fff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 95px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+.centered .button {
+    display: block;
+    margin: 40px auto 150px auto;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-decoration: none;
+    border: solid #fff 1px;
+    padding: 10px 20px;
+    width: 400px;
+}
+
+/*icons*/
+.icons {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.single-icon {
+    height: 60px;
+    width: 60px;
+    margin: 5px 30px;
+    display: inline-block;
+}
+.pencil {
+    background: url(../img/icons-intro-smol.png) 0 0px no-repeat;
+}
+
+.whiteboard {
+    background: url(../img/icons-intro-smol.png) 0 -144px no-repeat;
+}
+
+.settings {
+    background: url(../img/icons-intro-smol.png) 0 -293px no-repeat;
+}
+
+/*text*/
+
+.intro {
+    margin-bottom: 50px;
+}
+
+.centered h2 {
+    display: inline-block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: black;
+    border-bottom: 3px solid #d3dde6;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+/*paragraphs*/
+.left {
+    width: 400px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.left:nth-of-type(odd) {
+    margin-right: 100px;
+}
+
+.left h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    color: black;
+    margin-top: 0;
+}
+
+/*icons*/
+.people {
+    background: url('../img/group-icon-sprite-tiny.png') 0px 14px no-repeat;
+    background-size: 60%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.star {
+    background: url('../img/group-icon-sprite-tiny.png') 0px -80px no-repeat;
+    background-size: 70%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.lightbulb {
+    background: url('../img/group-icon-sprite-tiny.png') 0px -156px no-repeat;
+    background-size: 60%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.briefcase {
+    background: url('../img/group-icon-sprite-tiny.png') 0px -242px no-repeat;
+    background-size: 60%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: right;
+}
+
+
+
+
+.group::before,
+.group::after {
+    content: " ";
+    display: table;
+}
+
+.group::after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
